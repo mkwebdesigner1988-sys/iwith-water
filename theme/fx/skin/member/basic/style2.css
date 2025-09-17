@@ -1,0 +1,108 @@
+﻿@charset "utf-8";
+
+#login_fs legend{display:none;}
+/* 공통 */
+.check_box input[type="checkbox"]{display:none;}
+.check_box input[type="checkbox"] + label{position:relative;font-size:13px;margin-left:30px}
+.check_box input[type="checkbox"] + label:before{content:"";display:block;position:absolute;background:#dddddd url(img/check.svg) no-repeat center;background-size:100%;width:20px;height:20px;border:solid 1px #dddddd;border-radius:50%;top:-2px;left:-30px}
+.check_box input[type="checkbox"]:checked + label:before{border-color:#222222;background-color:#222222}
+
+/* 로그인 */
+.mem03_skin {width:100%; background:#f5f7f9;}
+.mem03_skin .inner{min-width:360px; margin:0 auto; padding:40px 0 65px; background:#fff; min-height:calc(100vh - 330px);}
+.mem03_skin .inner .inner_wrap{width:91%; min-width:328px; max-width:482px; margin:0 auto;}
+.loin_info{min-width:328px; margin:0;}
+.loin_info .title{display:block; width:100%; padding-bottom:16px; font-size:28px; font-weight:800; color:#1a1a1a; line-height:36px;}
+.loin_info .sub_title{display:block; color:#333; font-size:16px; font-weight:normal; line-height:26px; letter-spacing:-0.3px;}
+.loin_info .secut{display:flex; align-items:center; margin-top:4px; color:#808080; font-size:15px; line-height:25px;}
+.loin_info .secut img{width:16px; height:16px; margin-right:4px; vertical-align:middle;}
+.loin_info .secut b{color:#0046c0; font-weight:normal; vertical-align:middle;}
+.loin_info .secut strong{color:#808080; font-weight:normal; vertical-align:middle;}
+.login_wrap {margin:0; padding:0; border:0; }
+#login_fs{margin-top:32px; min-width:328px;}
+#login_fs .frm_input {width:100%;height:56px;padding:10px; background:#fff;background-image:none !important; color:#111; border:1px solid #e6e6e6;box-shadow:initial; border-radius:4px;}
+#login_fs .login_box .btn_wrap {width:100%;margin-top:30px;}
+#login_fs .login_box .btn_wrap .btn_submit {width:100%; padding:16px 16px 14px; font-style:normal; font-weight:normal; font-size:16px; line-height:24px; border-radius:4px; background:#0046c0; border:1px solid #0046c0;}
+#login_fs .login_box p{padding:16px 0; margin:0; width:100%; text-align:right;}
+#login_fs .login_box p a{color:#1a1a1a; font-size:15px; }
+#login_fs .reg_recommend{display:flex; align-items:center; margin-top:16px;}
+#login_fs .reg_recommend .input_col{flex:1; display:block;  border:1px solid #e6e6e6; padding-left:5px; background:#fff; transition:border-color .6s ease;}
+#login_fs .reg_recommend .input_col .reg_recommend_input{height:42px; padding:0 5px; font-size:14px; border:0; color:#000;}
+#login_fs .reg_recommend .re_bstn{margin-left:10px; background:#808080; color:#fff; padding:8px 15px; border:0;}
+#login_fs .join_inpu{margin-top:16px;}
+#login_fs .reg_selectbox{width:100%; margin-top:16px;}
+#login_fs .reg_selectbox select{width:100%; height:56px; color:#fff; background:#0046c0; padding:10px; border:0;}
+
+#login_fs .login-option{display:flex; flex-direction:column; align-items:center; gap:30px; margin-top:18px;}
+#login_fs .login-option .login-option-txt{position:relative; width:100%; font-size:16px; font-weight:500; color:#888; text-align:center;}
+#login_fs .login-option .login-option-txt:before{content:""; position:absolute; top:50%; left:0; transform:translateY(-50%); width:100%; height:1px; background-color:#eee;}
+#login_fs .login-option .login-option-txt span{position:relative; z-index:1; background-color:#fff; padding-inline:8px;}
+#login_fs .login-option .btn-full{width:100%; height:50px; line-height:50px; font-size:20px; font-weight:600; border:2px solid #0046c0; background:#0046c0; color:#fff;}
+
+
+#login_fs .reg_submi{width:100%;height:55px;background:#0046c0;color:#fff;font-size:13px; margin-top:10px;}
+@media (min-width: 1200px){
+	.mem03_skin .inner{width:100%; margin:0; padding:80px 0 120px;}
+	.mem03_skin .inner .inner_wrap{max-width:478px; padding:0; margin:0 auto;}
+	.loin_info{max-width:100%;}
+	#login_fs{max-width:100%;}
+	#login_fs .frm_input{max-width:100%;}
+}
+
+.join_agree{width:100%; margin-top:30px;}
+.join_agree .top{width:100%; margin-bottom:20px;}
+.join_agree .top h4{font-size:22px; color:#1a1a1a; font-weight:500; margin:0 0 10px; padding:0;}
+.join_agree .top p{font-size:14px; color:#333; font-weight:normal; margin:5px 0 0;}
+
+.join_agree .agreed_box{background:#fff; border:1px solid #cfcfcf; padding:15px 10px; margin-bottom:20px;}
+.join_agree .agreed_box h5{font-size:16px; color:#1a1a1a; font-weight:500; margin:0; padding:0;}
+.join_agree .agreed_box .in_box{height:150px; color:#000; font-size:14px; background:#f1f1f1; border:1px solid #cfcfcf; padding:15px 10px; overflow-y:scroll; margin:10px 0;}
+.join_agree .agreed_box .in_box pre{white-space:pre-wrap;}
+.join_agree .agreed_box .in_box pre p{margin:0; padding:0;}
+
+.join_agree .agreed_item{width:100%; margin-bottom:20px;}
+.join_agree .agreed_item h5{font-size:16px; color:#1a1a1a; font-weight:500; margin:0; padding:0;}
+.join_agree .agreed_item table{width:100%; margin:10px 0;}
+.join_agree .agreed_item table th{padding:5px 4px; text-align:center; font-size:12px;}
+.join_agree .agreed_item table td{padding:5px 4px; text-align:center; font-size:12px;}
+
+.agree_box label{margin:0 0 0 5px; font-size:14px; color:#333; font-weight:500;}
+
+#login_fs .login_box .input_wrap {width:100%;}
+#login_fs .login_box .btn_wrap a{display:block; width:49%;height:55px;background:#b1b1b1;color:#111;font-size:13px;  line-height:55px; text-align:center; float:right; font-family:'S-CoreDream-4Regular';}
+#login_fs .info_wrap {width:100%; margin-top:10px}
+#login_fs .info_wrap #lost_password{width:100%;}
+#login_fs .info_wrap #lost_password a {width:100%;height:45px;background:#fff;color:#111;font-size:13px; display:block; text-align:center; line-height:45px;}
+#login_fs .info_wrap #lost_password a:hover {border-bottom:solid 1px #222222;color:#fff}
+
+#login_fs .login_box {}
+
+#login_fs .frm_input:focus {border:solid 1px #222222}
+#login_fs .frm_input::placeholder {color:#999999}
+#login_fs #login_pw {margin-top:10px}
+
+
+#login_fs .join{margin-top:10px;}
+#login_fs .join p{margin:0; padding:0; font-size:12px;}
+body.dark #login_fs .join p{color:#fff;}
+
+#lost_password {display:flex;align-items:center;justify-content:space-between}
+#lost_password a {font-size:13px;color:#999999;position:relative}
+#lost_password #join:hover {color:#ff5000}
+
+.sns_login {margin-top:50px;border-top:solid 1px #dddddd}
+.sns_login .sns_list {margin-top:30px;display:flex;align-items: center;justify-content:center}
+.sns_login .sns_list li {width:50%;border:solid 1px #dddddd}
+.sns_login .sns_list li + li {margin-left:10px;}
+.sns_login .sns_list li a {display:flex;align-items:center;justify-content:center;width:100%;height:45px}
+.sns_login .sns_list li a img {width:24px;}
+.sns_login .sns_list li a span {font-size:13px;margin-left:7px}
+
+.frm_write{margin-top:40px;}
+
+@media (max-width:769px){
+	#login_fs .reg_recommend{flex-direction:column;}
+	#login_fs .reg_recommend .input_col{width:100%;}
+	#login_fs .reg_recommend .re_bstn{width:100%; margin-left:0; margin-top:16px;}
+
+}
