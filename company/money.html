@@ -1,73 +1,595 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="ko">
-<head>
-
-<meta charset="utf-8">
-<meta name="robots" content="index, follow">
-<title>아이위드</title>
-<meta name="title" content="아이위드">
-<meta name="publisher" content="아이위드">
-<meta name="author" content="아이위드">
-<meta name="robots" content="index,follow">
-<meta name="keywords" content="아이위드, 아이위드 담수화, 아이위드 기술력, 담수화">
-<meta name="description" content="아이위드는 고도화된 담수화 기술로 갈증에 시달리는 세계에 응답하며, 지속 가능한 수자원 해법을 제공합니다.">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-<link rel="shortcut icon" href="../img/blue/favicon.ico" type="image/x-icon">
-<link rel="icon" href="../img/blue/favicon.ico" type="image/x-icon">
-
-<link rel="canonical" href="money.html">
-
-
-<link rel="stylesheet" href="../theme/fx/css/default.css?ver=2309913">
-
-<!-- google fonts -->
-<link href="../css?family=Nanum+Gothic:400,700,800|Noto+Sans+KR:100,300,400,500,700,900|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
-
-<link href="../css-1?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
-
-<!-- Bootstrap core CSS -->
-<link href="../theme/fx/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<!-- fontawesome -->
-<link rel="stylesheet" href="../releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-<!-- owl Carousel -->
-<link rel="stylesheet" href="../theme/fx/assets/owlcarousel/css/owl.carousel.min.css">
-<link rel="stylesheet" href="../theme/fx/assets/owlcarousel/css/owl.theme.default.min.css">
-
-<!-- countdown -->
-<!-- bootstrap-social icon -->
-<link href="../theme/fx/assets/bootstrap-social/bootstrap-social.css" rel="stylesheet">
-<link href="../theme/fx/css/animate.css?ver=2309913" rel="stylesheet">
-<link href="../theme/fx/css/bootstrap-dropdownhover.css" rel="stylesheet">
-<!-- Custom & ety -->
-<link href="../theme/fx/css/modern-business.css?ver=2309913" rel="stylesheet">
-<link href="../theme/fx/css/ety.css?ver=2309913" rel="stylesheet">
-<link href="../theme/fx/css/slick.css?ver=2309913" rel="stylesheet">
-<link href="../theme/fx/css/xeicon.min.css?ver=2309913" rel="stylesheet">
-
-
-<script src="../js/jquery-1.12.4.min.js?ver=2309675"></script>
-<script src="../js/jquery-migrate-1.4.1.min.js?ver=2309675"></script>
-<script src="../js/jquery.menu.js?ver=2309675"></script>
-<script src="../js/common.js?ver=2309675"></script>
-<script src="../js/wrest.js?ver=2309675"></script>
-<script src="../js/placeholders.min.js?ver=2309675"></script>
-</head>
-<body>
-    <script>
-alert("회원이시라면 로그인 후 이용해 보십시오.");
-document.location.replace("../bbs/login.html");
-</script>
-<noscript>
-<div id="validation_check">
-    <h1>다음 항목에 오류가 있습니다.</h1>
-    <p class="cbg">
-        로그인 후 관련 서비스 이용이 가능합니다.    </p>
-        <div class="btn_confirm">
-        <a href="../bbs/login.html">돌아가기</a>
-    </div>
-    
-</div>
-</noscript>
-</body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="robots" content="index, follow">
+        <title>아이위드</title>
+        <meta name="title" content="아이위드" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="아이위드, 아이위드 담수화, 아이위드 기술력, 담수화" />
+        <meta name="description" content="아이위드는 고도화된 담수화 기술로 갈증에 시달리는 세계에 응답하며, 지속 가능한 수자원 해법을 제공합니다." />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="../img/blue/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="../img/blue/favicon.ico" type="image/x-icon">
+        <!-- Canonical -->
+        <link rel="canonical" href="money.html">
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="../theme/fx/css/default.css?ver=2309913">
+        <link href="../css?family=Nanum+Gothic:400,700,800|Noto+Sans+KR:100,300,400,500,700,900|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+        <link href="../css-1?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+        <!-- css -->
+        <link href="../theme/fx/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="../releases/v5.5.0/css/all.css" rel="stylesheet">
+        <link rel="stylesheet" href="../theme/fx/assets/owlcarousel/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="../theme/fx/assets/owlcarousel/css/owl.theme.default.min.css">
+        <link href="../theme/fx/assets/bootstrap-social/bootstrap-social.css" rel="stylesheet">
+        <link href="../theme/fx/css/animate.css?ver=2309913" rel="stylesheet">
+        <link href="../theme/fx/css/bootstrap-dropdownhover.css" rel="stylesheet">
+        <link href="../theme/fx/css/modern-business.css?ver=2309913" rel="stylesheet">
+        <link href="../theme/fx/css/ety.css?ver=2309913" rel="stylesheet">
+        <link href="../theme/fx/css/slick.css?ver=2309913" rel="stylesheet">
+        <link href="../theme/fx/css/xeicon.min.css?ver=2309913" rel="stylesheet">
+        <link href="company.css?ver=2309913" rel="stylesheet">
+        <!-- jQuery -->
+        <script src="../js/jquery-1.12.4.min.js?ver=2309675"></script>
+        <script src="../js/jquery-migrate-1.4.1.min.js?ver=2309675"></script>
+        <script src="../js/jquery.menu.js?ver=2309675"></script>
+        <script src="../js/common.js?ver=2309675"></script>
+        <script src="../js/wrest.js?ver=2309675"></script>
+        <script src="../js/placeholders.min.js?ver=2309675"></script>
+        <style>
+            .collapse.in{
+            -webkit-transition-delay: 4s;
+            transition-delay: 5s;
+            visibility: visible;
+            }
+            /* 배경 */
+            .popup-overlay {
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0,0,0,0.5);
+            display: none; /* 처음에는 숨김 */
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            }
+            /* 팝업 */
+            .popup {
+            background: #fff;
+            padding: 20px 30px;
+            border-radius: 8px;
+            text-align: center;
+            width: 300px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            position: relative;
+            }
+            .popup h2 {
+            margin-top: 0;
+            font-size: 18px;
+            }
+            .popup input {
+            padding: 8px;
+            width: 100%;
+            margin: 10px 0;
+            text-align: right;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            }
+            .popup .buttons {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 10px;
+            }
+            .popup button {
+            padding: 8px 15px;
+            font-size: 14px;
+            cursor: pointer;
+            border: none;
+            background: #3498db;
+            color: #fff;
+            border-radius: 4px;
+            }
+            .popup button:hover {
+            background: #2980b9;
+            }
+            .popup .cancel-btn {
+            background: #aaa;
+            }
+            .popup .cancel-btn:hover {
+            background: #888;
+            }
+            /* mobile */
+            .ety-main{width:100%; height:62px;}
+            .ety-main2{display:none;}
+            @media (min-width: 1px) and (max-width: 769px) {
+            .ety-main{width:100%; height:167px; display:block;}
+            .ety-main2{width:100%; height:167px; display:block;}
+            }
+        </style>
+    </head>
+    <body>
+        <!-- navigation start here -->
+        <nav class="navbar fixed-top navbar-expand-lg in_mohd">
+            <div class="navbar_cont">
+                <div class="navcont_info">
+                    <div class="nab_box">
+                        <div class="nab_top">
+                            <a class="navbar-brand logo" href="../index.html"><img src="../img/blue/logo22.png"></a>
+                        </div>
+                        <div class="navbar_subcont">
+                            <div class="head_submenu">
+                                <ul class="submenu_ul">
+                                    <li class="submenu_li">
+                                        <a href="page1-1.html" class="submenu_a" style="font-weight: bold;">기업 소개</a>
+                                        <ul>
+                                            <li><a href="page1-1.html" target="_self">기업소개</a></li>
+                                            <li><a href="page1-2.html" target="_self">CEO<br>인사말</a></li>
+                                            <li><a href="page1-3.html" target="_self">연혁</a></li>
+                                            <li><a href="page1-4.html" target="_self">조직도</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="submenu_li">
+                                        <a href="page2-1.html" class="submenu_a" style="font-weight: bold;">사업 영역</a>
+                                        <ul>
+                                            <li><a href="page2-1.html" target="_self">해수담수화 플랜트</a></li>
+                                            <li><a href="page2-2.html" target="_self">수처리 플랜트</a></li>
+                                            <li><a href="page2-3.html" target="_self">저장탱크 플랜트</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="submenu_li">
+                                        <a href="windsold.html" class="submenu_a" style="font-weight: bold;">투자 상품</a>
+                                    </li>
+                                    <!-- <li class="submenu_li"><div class="tab_driver"></div></li> -->
+                                    <li class="submenu_li">
+                                        <a href="money.html" class="submenu_a" style="font-weight: bold;">입출금</a>
+                                    </li>
+                                    <li class="submenu_li">
+                                        <a href="../bbs/board.html?bo_table=review" class="submenu_a" style="font-weight: bold;">투자자 후기</a>
+                                    </li>
+                                    <!-- <li class="submenu_li">
+                                        <a href="faq.html" class="submenu_a">FAQ</a>
+                                        </li> -->
+                                    <li class="submenu_li">
+                                        <a href="../bbs/board-notice.html?bo_table=notice" class="submenu_a">고객지원</a>
+                                        <ul>
+                                            <li><a href="faq.html" class="submenu_a" target="_self">FAQ</a></li>
+                                            <li><a href="../bbs/board-notice.html?bo_table=notice" target="_self">공지사항</a></li>
+                                            <li><a href="../bbs/qalist.html" target="_self">1:1문의</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="submenu_li">
+                                        <div class="tab_driver"></div>
+                                    </li>
+                                    <li class="submenu_li">
+                                        <a href="../bbs/login.html" class="submenu_a">로그인</a>
+                                    </li>
+                                    <li class="submenu_li">
+                                        <a href="../bbs/register_form.html" class="submenu_a">회원가입</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="nabb_sub">
+                            <div class="nabs_botop">
+                                <div class="nabs_tolo">
+                                    <a href="../bbs/login.html"><i class="fas fa-user"></i>로그인</a>
+                                    <a href="../bbs/register_form.html"><i class="fas fa-lock"></i>회원가입</a>
+                                </div>
+                            </div>
+                            <div class="nav_info">
+                                <div class="collapse navbar-collapse" id="navbarResponsive" data-hover="dropdown" data-animations="fadeIn fadeIn fadeInUp fadeInRight">
+                                    <div class="mb_logo">
+                                        <a class="mb_logo_logo" href="index.htm"><img src="img/blue/logo22.png"></a>
+                                    </div>
+                                    <div class="mba_ssloga">
+                                        <a href="../bbs/login.html" class="mba_ssloga_logi">로그인</a>
+                                        <a href="../bbs/register_form.html" class="mba_ssloga_mebm">회원가입</a>
+                                    </div>
+                                    <ul class="navbar-nav ml-auto ">
+                                        <li class="nav-item dropdown megamenu-li">
+                                            <a href="page1-1.html" class="nav-link dropdown-toggle" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" target="_self">기업소개</a>
+                                            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                                                <li><a class="dropdown-item" href="page1-1.html" target="_self">기업소개</a></li>
+                                                <li><a class="dropdown-item" href="page1-2.html" target="_self">CEO<br>인사말</a></li>
+                                                <li><a class="dropdown-item" href="page1-3.html" target="_self">연혁</a></li>
+                                                <li><a class="dropdown-item" href="page1-4.html" target="_self">조직도</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown megamenu-li">
+                                            <a href="page2-1.html" class="nav-link dropdown-toggle" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" target="_self">사업분야</a>
+                                            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                                                <li><a class="dropdown-item" href="page2-1.html" target="_self">해수담수화 플랜트</a></li>
+                                                <li><a class="dropdown-item" href="page2-2.html" target="_self">수처리 플랜트</a></li>
+                                                <li><a class="dropdown-item" href="page2-3.html" target="_self">저장탱크 플랜트</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="windsold.html" class="nav-link">투자상품</a>
+                                        </li>
+                                        <li class="nav-item dropdown megamenu-li">
+                                            <a href="money.html" class="nav-link dropdown-toggle" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" target="_self">입출금</a>
+                                            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                                                <li><a class="dropdown-item" href="money.html" target="_self">입금</a></li>
+                                                <li><a class="dropdown-item" href="money_w.html" target="_self">출금</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="../bbs/board.html?bo_table=review" class="nav-link">투자자 후기</a>
+                                        </li>
+                                        <li class="nav-item dropdown megamenu-li">
+                                            <a href="../bbs/board-notice.html?bo_table=notice" class="nav-link dropdown-toggle" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" target="_self">고객지원</a>
+                                            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                                                <li><a class="dropdown-item" href="../bbs/board-notice.html?bo_table=notice" target="_self">공지사항</a></li>
+                                                <li><a class="dropdown-item" href="faq.html" target="_self">자주 묻는 질문</a></li>
+                                                <li><a class="dropdown-item" href="../bbs/qalist.html" target="_self">1:1문의</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <div class="mba_ssdiv2">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- navigation end here -->
+        <!-- mobile menu start here -->
+        <div class="mobiles_header">
+            <ul>
+                <li><a href="page1-1.html" class="submenu_a">기업소개</a></li>
+                <li><a href="page2-1.html" class="submenu_a">사업분야</a></li>
+                <li><a href="windsold.html" class="submenu_a">투자상품</a></li>
+                <li><a href="money.html" class="submenu_a">입출금</a></li>
+                <li><a href="../bbs/board.html?bo_table=review" class="submenu_a review_a">투자자 후기</a></li>
+                <li><a href="faq.html" class="submenu_a">FAQ</a></li>
+                <li><a href="../bbs/board-notice.html?bo_table=notice" target="_self">공지사항</a></li>
+                <li><a href="../bbs/qalist.html" target="_self">1:1문의</a></li>
+            </ul>
+        </div>
+        <!-- mobile menu end here -->
+        <!-------------------------- 구글 아이콘 -------------------------->
+        <div class="ety-main"></div>
+        <link href="company.css?ver=2309913" rel="stylesheet">
+        <!-- money page content start -->
+        <div class="mypage">
+            <h1 class="mypage_title">마이페이지</h1>
+            <div class="mypage_top">
+                <a href="mypage.html">요약</a>
+                <a href="my_wind.html">투자내역</a>
+                <a href="money.html" class="on">입금</a>
+                <a href="money_w.html">출금</a>
+                <a href="my_dmoney.html">수익금 지급 현황</a>
+                <a href="memo.html">쪽지함</a>
+            </div>
+            <div class="money_content">
+                <h3>입금 하기</h3>
+                <div class="money_item">
+                    <div class="money_input">
+                        <input type="text" name="in_money" id="in_money" value="0">
+                        <span>원</span>
+                    </div>
+                    <div class="money_btn">
+                        <button type="button" onclick="add_inmoney('50')" class="min_btn">최소 입금가능금액 입력</button>
+                        <button type="button" onclick="add_inmoney('x')" class="clear_btn">초기화</button>
+                    </div>
+                    <div class="money_btn2">
+                        <button type="button" onclick="add_inmoney('100')">100만원</button>
+                        <button type="button" onclick="add_inmoney('500')">500만원</button>
+                        <button type="button" onclick="add_inmoney('1000')">1,000만원</button>
+                        <button type="button" onclick="add_inmoney('5000')">5,000만원</button>
+                    </div>
+                    <div class="btn_wrap">
+                        <button type="button" onclick="addMoney();">입금신청</button>
+                        <button type="button" onclick="fn_get_bankno();">계좌문의</button>
+                    </div>
+                </div>
+            </div>
+            <div class="mypage_txt">
+                <h2>입금 시 주의 사항</h2>
+                <p>1. 입금 전 계좌문의를 통해 입금 전용계좌번호를 확인하신 후 입금하시길 바랍니다.<br><br>
+                    2. 1인 1회 최대 입금 가능 한도는 1,000만원입니다.(초과되는 금액을 입금하실 경우 분할하여 입금 가능합니다.)<br><br>
+                    3. 투자 신청 시 입금 금액은 만원 단위로만 가능합니다. 최초 투자 금액은 최소 100만원입니다.
+                </p>
+            </div>
+            <div class="money_content">
+                <h3>입금 승인 내역</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>신청날짜</th>
+                            <th>신청내역</th>
+                            <th>신청금액</th>
+                            <th>상태</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2025-08-27 23:33</td>
+                            <td>입금</td>
+                            <td>10,000,000</td>
+                            <td>완료</td>
+                        </tr>
+                        <tr>
+                            <td>2025-08-27 13:08</td>
+                            <td>입금</td>
+                            <td>1,000,000</td>
+                            <td>취소</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- money page content end -->
+        <div class="popup-overlay" id="popup">
+            <div class="popup">
+                <h2>입금 예정금액을 입력해주세요</h2>
+                <input type="text" id="mchs" placeholder="0">
+                <div class="buttons">
+                    <button id="confirmBtn">확인</button>
+                    <button class="cancel-btn" id="cancelBtn">취소</button>
+                </div>
+            </div>
+        </div>
+        <div id="check"></div>
+        <div class="footer">
+            <div class="footer_block">
+                <div class="f_link_box">
+                    <a href="../bbs/content.html" class="f_link">서비스 이용약관</a>
+                    <a href="../bbs/privacy.html" class="f_link">개인 정보 처리 방침</a>
+                </div>
+                <div class="f_info">
+                    <div class="f_warp1">
+                        <div class="f_logo_warp">
+                            <img src="../img/blue/logo22.png" loading="lazy" alt="" class="f_logo">
+                        </div>
+                        <div class="text-block"> 
+                            　<br>아이위드<br>대표자 김계현 / 재무총괄 홍길동<br>사업자번호 : 650-41-00808<br>주소 : 서울특별시 영등포구 여의도동 국제금융로 10<br>Copyright © 2010-2025 iwith. All Rights Reserved.				
+                        </div>
+                    </div>
+                    <div class="f_warp2">
+                        <div>
+                            <strong class="bold-text-3">Contact</strong><br>
+                            고객센터 번호 : 1234-5678-0000<br>
+                            주중 운영시간 : 09:00 ~ 18:00<br>
+                            공휴일 및 주말 휴무				
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="../js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../js/jquery-1.11.0.min.js"></script>
+        <script>
+            var jQuery = $.noConflict(true);
+        </script>
+        <script src="../theme/fx/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="../theme/fx/assets/parallax/js/parallax.min.js"></script>
+        <script src="../theme/fx/assets/owlcarousel/js/owl.carousel.min.js"></script>
+        <!-- countdown -->
+        <script type="text/javascript" src="../theme/fx/assets/countdown/js/kinetic.js"></script>
+        <script type="text/javascript" src="../theme/fx/assets/countdown/js/jquery.final-countdown.js"></script>
+        <script type="text/javascript" src="../theme/fx/js/bootstrap-dropdownhover.js"></script>
+        <script type="text/javascript" src="../theme/fx/js/custom.js"></script>
+        <script>
+            function addComma(str){
+            	var regexp = /\B(?=(\d{3})+(?!\d))/g;
+            	return str.toString().replace(regexp, ',');
+            }
+            function clsComma(str){
+            	return str.toString().replace(/,/g, '');
+            }
+            function add_inmoney(money){
+            	var in_money = clsComma($("#in_money").val());
+            	in_money = in_money * 1;
+            	if(money == "x"){
+            		$("#in_money").val(0);
+            	}else{
+            		var plusm = in_money + (money * 10000);
+            		$("#in_money").val(addComma(plusm));
+            	}
+            }
+            function add_outmoney(money){
+            	var in_money = clsComma($("#out_money").val());
+            	in_money = in_money * 1;
+            	if(money == "x"){
+            		$("#out_money").val(0);
+            	}else{
+            		var plusm = in_money + (money * 10000);
+            		$("#out_money").val(addComma(plusm));
+            	}
+            }
+            $(function(){
+            	$('#in_money').keyup(function() {
+            		var ninpnum = $(this).val();
+            		ninpnum = clsComma(ninpnum);
+            		var commakinvmny = addComma(ninpnum);
+            		$('#in_money').val(commakinvmny);
+            	});
+            	$('#out_money').keyup(function() {
+            		var ninpnum = $(this).val();
+            		ninpnum = clsComma(ninpnum);
+            		var commakinvmny = addComma(ninpnum);
+            		$('#in_money').val(commakinvmny);
+            	});
+            });
+            function addMoney(){
+            	 var money = clsComma($('#in_money').val());
+            	 money = money * 1;
+            	 if(!money || money == 0){
+            		alert("입금 금액을 입력해주세요.");
+            		return;
+            	 }
+            	  if(money < 1000000){
+            		alert("입금 최소 금액은 100만원 입니다.");
+            		return;
+            	 }
+            	 if(money%10000 != 0){ alert("입금 금액은 1만원 단위로 신청하실 수 있습니다."); return; }
+            	 if(!confirm("입금신청 하시겠습니까?")) { return; }
+            	 var sts = "in";
+            	 var formData = {"sts":sts, "money":money};
+            	 $.ajax({
+                       url: "#",
+                       type: "POST",
+                       data: formData,
+                       success: function(response) {  //alert(" __|"+response+"|__ ");
+                           if(response == "OK")
+                           { 
+                               alert(" 입금 신청을 완료하였습니다!");
+                               location.reload();               
+                               
+                           }else if(response == "OVER"){
+                               alert(" 신청금액이 보유금액보다 큽니다. ");
+                           }else if(response == "min"){
+                               alert(" 기존 입금 신청 건에 대한 처리가 진행중입니다. ");
+                           }else if(response == "minso"){
+                               alert(" 금액은 1만원 단위로 신청하실 수 있습니다.");
+                           }else if(response == "notm"){
+                               alert(" 충전할 금액을 입력해주세요.");
+                           }else if(response == "notmem"){
+                               alert(" 회원만 신청 가능합니다. \n 로그인후 시도해주세요");
+                           }else{ 
+                               alert(" 신청 실패 새로고침 후 다시 시도해주세요");
+                           }
+            
+                           // 등록처리 0 : OK
+            
+                       },
+                       eror:function(request, status, error){
+                           //alert("code = "+ request.status + " message = " + request.responseText + " error = " + error);
+                           alert("Error Code = "+ request.status );
+                       }
+                   });
+            
+            }
+            const popup = document.getElementById("popup");
+            const openBtn = document.getElementById("openPopupBtn");
+            const input = document.getElementById("mchs");
+            const confirmBtn = document.getElementById("confirmBtn");
+            const cancelBtn = document.getElementById("cancelBtn");
+            cancelBtn.addEventListener("click", closePopup);
+            
+            popup.addEventListener("click", (e) => {
+            	// 배경 클릭 시 닫힘 (팝업 박스를 제외한 영역만)
+            	if (e.target === popup) {
+            		closePopup();
+            	}
+            });
+            
+            function closePopup() {
+            	popup.style.display = "none";
+            }
+            function fn_get_bankno(){
+            	popup.style.display = "flex"; // 팝업 열기
+            	input.value = "";             // 입력 초기화
+            	input.focus();
+            }
+            
+            input.addEventListener("input", () => {
+            	let val = input.value.replace(/[^\d]/g, "");
+            	if(val) {
+            		input.value = Number(val).toLocaleString();
+            	} else {
+            		input.value = "";
+            	}
+            });
+            
+            confirmBtn.addEventListener("click", () => {
+            	let val = input.value.replace(/[^\d]/g, "");
+            	if (!val) {
+            		alert("입금 예정금액을 입력해주세요.");
+            		return;
+            	}
+            	
+            	popup.style.display = "none";
+            	var formData = {"mchs":val};
+            
+                   $.ajax({
+            		url: "#",
+            		type: "POST",
+            		data: formData,
+            		success: function(response) {  
+            			if(response == "OK")
+            			{ 
+            				alert("예치금 전용 계좌 발급 문의가 작성되었습니다.");
+            				top.location.href="../bbs/qalist.html";
+            				return; 
+            			}else if(response == "Not Ni"){ 
+            				alert(" 입금 예정금액을 입력해주세요");
+            				location.reload();
+            			}else{ 
+            				alert(" 문의글 작성 실패! \n\n 새로고침후 다시시도해주세요");
+            			}
+            
+            			// 등록처리 0 : OK
+            
+            		},
+            		eror:function(request, status, error){
+            			
+            		}
+            	});
+            });
+            
+            function outMoney(){
+            	var money = clsComma($('#out_money').val());
+            	 money = money * 1;
+            	 var ch_mo = "12061404.4072";
+            	 ch_mo = ch_mo * 1;
+            	 if(!money || money == 0){
+            		alert("출금할 금액을 입력해주세요.");
+            		return;
+            	 }
+            	 if(money < 10000){
+            		alert("출금 최소 금액은 1만원입니다.");
+            		return;
+            	 }
+            	 if(money > ch_mo){
+            		alert("신청금액이 보유 수익금액보다 큽니다.");
+            		return;
+            	 }
+            	 if(!confirm("출금신청 하시겠습니까?")) { return; }
+            	 var sts = "out";
+            	 var formData = {"sts":sts, "money":money};
+            	  $.ajax({
+                       url: "#",
+                       type: "POST",
+                       data: formData,
+                       success: function(response) {  //alert(" __|"+response+"|__ ");
+                           if(response == "OK")
+                           { 
+                               alert(" 출금 신청을 완료하였습니다!");
+                               location.reload();           
+                               
+                           }else if(response == "OVER"){
+                               alert(" 신청금액이 보유금액보다 큽니다. ");
+                           }else if(response == "min"){
+                               alert(" 기존 입금 신청 건에 대한 처리가 진행중입니다. ");
+                           }else if(response == "minso"){
+                               alert(" 금액은 1만원 단위로 신청하실 수 있습니다.");
+                           }else if(response == "notm"){
+                               alert(" 출금할 금액을 입력해주세요.");
+                           }else if(response == "notmem"){
+                               alert(" 회원만 신청 가능합니다. \n 로그인후 시도해주세요");
+                           }else if(response == "obgame"){
+                               alert(" 전력생산 진행중에는 출금이 불가합니다.");
+                           }else{ 
+                               alert(" 신청 실패 새로고침 후 다시 시도해주세요");
+                           }
+            
+                           // 등록처리 0 : OK
+            
+                       },
+                       eror:function(request, status, error){
+                           //alert("code = "+ request.status + " message = " + request.responseText + " error = " + error);
+                           alert("Error Code = "+ request.status );
+                       }
+                   });
+            }
+        </script>
+        </div>
+    </body>
 </html>

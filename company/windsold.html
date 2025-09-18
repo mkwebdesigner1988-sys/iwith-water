@@ -1,70 +1,750 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="ko">
-<head>
-
-<meta charset="utf-8">
-<meta name="robots" content="index, follow">
-<title>아이위드</title>
-<meta name="title" content="아이위드">
-<meta name="robots" content="index,follow">
-<meta name="keywords" content="아이위드, 아이위드 담수화, 아이위드 기술력, 담수화">
-<meta name="description" content="아이위드는 고도화된 담수화 기술로 갈증에 시달리는 세계에 응답하며, 지속 가능한 수자원 해법을 제공합니다.">
-
-<link rel="shortcut icon" href="../img/blue/favicon.ico" type="image/x-icon">
-<link rel="icon" href="../img/blue/favicon.ico" type="image/x-icon">
-
-<link rel="canonical" href="windsold.html">
-
-<link rel="stylesheet" href="../theme/fx/css/default.css?ver=2309913">
-
-<!-- google fonts -->
-<link href="../css?family=Nanum+Gothic:400,700,800|Noto+Sans+KR:100,300,400,500,700,900|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
-
-<link href="../css-1?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
-
-<!-- Bootstrap core CSS -->
-<link href="../theme/fx/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<!-- fontawesome -->
-<link rel="stylesheet" href="../releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-<!-- owl Carousel -->
-<link rel="stylesheet" href="../theme/fx/assets/owlcarousel/css/owl.carousel.min.css">
-<link rel="stylesheet" href="../theme/fx/assets/owlcarousel/css/owl.theme.default.min.css">
-
-<!-- countdown -->
-<!-- bootstrap-social icon -->
-<link href="../theme/fx/assets/bootstrap-social/bootstrap-social.css" rel="stylesheet">
-<link href="../theme/fx/css/animate.css?ver=2309913" rel="stylesheet">
-<link href="../theme/fx/css/bootstrap-dropdownhover.css" rel="stylesheet">
-<!-- Custom & ety -->
-<link href="../theme/fx/css/modern-business.css?ver=2309913" rel="stylesheet">
-<link href="../theme/fx/css/ety.css?ver=2309913" rel="stylesheet">
-<link href="../theme/fx/css/slick.css?ver=2309913" rel="stylesheet">
-<link href="../theme/fx/css/xeicon.min.css?ver=2309913" rel="stylesheet">
-
-
-<script src="../js/jquery-1.12.4.min.js?ver=2309675"></script>
-<script src="../js/jquery-migrate-1.4.1.min.js?ver=2309675"></script>
-<script src="../js/jquery.menu.js?ver=2309675"></script>
-<script src="../js/common.js?ver=2309675"></script>
-<script src="../js/wrest.js?ver=2309675"></script>
-<script src="../js/placeholders.min.js?ver=2309675"></script>
-</head>
-<body>
-<script>
-alert("회원이시라면 로그인 후 이용해 보십시오.");
-document.location.replace("../bbs/login.html");
-</script>
-<noscript>
-<div id="validation_check">
-    <h1>다음 항목에 오류가 있습니다.</h1>
-    <p class="cbg">
-        로그인 후 관련 서비스 이용이 가능합니다.    </p>
-        <div class="btn_confirm">
-        <a href="../bbs/login.html">돌아가기</a>
-    </div>
-    
-</div>
-</noscript>
-
-</body>
+    <head>
+        <meta charset="utf-8">
+        <meta name="robots" content="index, follow">
+        <title>아이위드</title>
+        <meta name="title" content="아이위드" />
+        <meta name="robots" content="index,follow" />
+        <meta name="keywords" content="아이위드, 아이위드 담수화, 아이위드 기술력, 담수화" />
+        <meta name="description" content="아이위드는 고도화된 담수화 기술로 갈증에 시달리는 세계에 응답하며, 지속 가능한 수자원 해법을 제공합니다." />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="../img/blue/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="../img/blue/favicon.ico" type="image/x-icon">
+        <!-- Canonical -->
+        <link rel="canonical" href="windsold.html">
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="../theme/fx/css/default.css?ver=2309913">
+        <link href="../css?family=Nanum+Gothic:400,700,800|Noto+Sans+KR:100,300,400,500,700,900|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+        <link href="../css-1?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+        <!-- css -->
+        <link href="../theme/fx/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="../releases/v5.5.0/css/all.css" rel="stylesheet">
+        <link rel="stylesheet" href="../theme/fx/assets/owlcarousel/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="../theme/fx/assets/owlcarousel/css/owl.theme.default.min.css">
+        <link href="../theme/fx/assets/bootstrap-social/bootstrap-social.css" rel="stylesheet">
+        <link href="../theme/fx/css/animate.css?ver=2309913" rel="stylesheet">
+        <link href="../theme/fx/css/bootstrap-dropdownhover.css" rel="stylesheet">
+        <link href="../theme/fx/css/modern-business.css?ver=2309913" rel="stylesheet">
+        <link href="../theme/fx/css/ety.css?ver=2309913" rel="stylesheet">
+        <link href="../theme/fx/css/slick.css?ver=2309913" rel="stylesheet">
+        <link href="../theme/fx/css/xeicon.min.css?ver=2309913" rel="stylesheet">
+        <link href="company.css?ver=2309913" rel="stylesheet">
+        <!-- jQuery -->
+        <script src="../js/jquery-1.12.4.min.js?ver=2309675"></script>
+        <script src="../js/jquery-migrate-1.4.1.min.js?ver=2309675"></script>
+        <script src="../js/jquery.menu.js?ver=2309675"></script>
+        <script src="../js/common.js?ver=2309675"></script>
+        <script src="../js/wrest.js?ver=2309675"></script>
+        <script src="../js/placeholders.min.js?ver=2309675"></script>
+        <style>
+            .collapse.in{
+            -webkit-transition-delay: 4s;
+            transition-delay: 5s;
+            visibility: visible;
+            }
+            /* mobile */
+            .ety-main{width:100%; height:62px;}
+            .ety-main2{display:none;}
+            @media (min-width: 1px) and (max-width: 769px) {
+            .ety-main{width:100%; height:167px; display:block;}
+            .ety-main2{width:100%; height:167px; display:block;}
+            }
+        </style>
+    </head>
+    <body>
+        <!-- navigation start here -->
+        <nav class="navbar fixed-top navbar-expand-lg in_mohd">
+            <div class="navbar_cont">
+                <div class="navcont_info">
+                    <div class="nab_box">
+                        <div class="nab_top">
+                            <a class="navbar-brand logo" href="../index.html"><img src="../img/blue/logo22.png"></a>
+                        </div>
+                        <div class="navbar_subcont">
+                            <div class="head_submenu">
+                                <ul class="submenu_ul">
+                                    <li class="submenu_li">
+                                        <a href="page1-1.html" class="submenu_a" style="font-weight: bold;">기업 소개</a>
+                                        <ul>
+                                            <li><a href="page1-1.html" target="_self">기업소개</a></li>
+                                            <li><a href="page1-2.html" target="_self">CEO<br>인사말</a></li>
+                                            <li><a href="page1-3.html" target="_self">연혁</a></li>
+                                            <li><a href="page1-4.html" target="_self">조직도</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="submenu_li">
+                                        <a href="page2-1.html" class="submenu_a" style="font-weight: bold;">사업 영역</a>
+                                        <ul>
+                                            <li><a href="page2-1.html" target="_self">해수담수화 플랜트</a></li>
+                                            <li><a href="page2-2.html" target="_self">수처리 플랜트</a></li>
+                                            <li><a href="page2-3.html" target="_self">저장탱크 플랜트</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="submenu_li">
+                                        <a href="windsold.html" class="submenu_a" style="font-weight: bold;">투자 상품</a>
+                                    </li>
+                                    <!-- <li class="submenu_li"><div class="tab_driver"></div></li> -->
+                                    <li class="submenu_li">
+                                        <a href="money.html" class="submenu_a" style="font-weight: bold;">입출금</a>
+                                    </li>
+                                    <li class="submenu_li">
+                                        <a href="../bbs/board.html?bo_table=review" class="submenu_a" style="font-weight: bold;">투자자 후기</a>
+                                    </li>
+                                    <!-- <li class="submenu_li">
+                                        <a href="faq.html" class="submenu_a">FAQ</a>
+                                        </li> -->
+                                    <li class="submenu_li">
+                                        <a href="../bbs/board-notice.html?bo_table=notice" class="submenu_a">고객지원</a>
+                                        <ul>
+                                            <li><a href="faq.html" class="submenu_a" target="_self">FAQ</a></li>
+                                            <li><a href="../bbs/board-notice.html?bo_table=notice" target="_self">공지사항</a></li>
+                                            <li><a href="../bbs/qalist.html" target="_self">1:1문의</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="submenu_li">
+                                        <div class="tab_driver"></div>
+                                    </li>
+                                    <li class="submenu_li">
+                                        <a href="../bbs/login.html" class="submenu_a">로그인</a>
+                                    </li>
+                                    <li class="submenu_li">
+                                        <a href="../bbs/register_form.html" class="submenu_a">회원가입</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="nabb_sub">
+                            <div class="nabs_botop">
+                                <div class="nabs_tolo">
+                                    <a href="../bbs/login.html"><i class="fas fa-user"></i>로그인</a>
+                                    <a href="../bbs/register_form.html"><i class="fas fa-lock"></i>회원가입</a>
+                                </div>
+                            </div>
+                            <div class="nav_info">
+                                <div class="collapse navbar-collapse" id="navbarResponsive" data-hover="dropdown" data-animations="fadeIn fadeIn fadeInUp fadeInRight">
+                                    <div class="mb_logo">
+                                        <a class="mb_logo_logo" href="index.htm"><img src="img/blue/logo22.png"></a>
+                                    </div>
+                                    <div class="mba_ssloga">
+                                        <a href="../bbs/login.html" class="mba_ssloga_logi">로그인</a>
+                                        <a href="../bbs/register_form.html" class="mba_ssloga_mebm">회원가입</a>
+                                    </div>
+                                    <ul class="navbar-nav ml-auto ">
+                                        <li class="nav-item dropdown megamenu-li">
+                                            <a href="page1-1.html" class="nav-link dropdown-toggle" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" target="_self">기업소개</a>
+                                            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                                                <li><a class="dropdown-item" href="page1-1.html" target="_self">기업소개</a></li>
+                                                <li><a class="dropdown-item" href="page1-2.html" target="_self">CEO<br>인사말</a></li>
+                                                <li><a class="dropdown-item" href="page1-3.html" target="_self">연혁</a></li>
+                                                <li><a class="dropdown-item" href="page1-4.html" target="_self">조직도</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item dropdown megamenu-li">
+                                            <a href="page2-1.html" class="nav-link dropdown-toggle" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" target="_self">사업분야</a>
+                                            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                                                <li><a class="dropdown-item" href="page2-1.html" target="_self">해수담수화 플랜트</a></li>
+                                                <li><a class="dropdown-item" href="page2-2.html" target="_self">수처리 플랜트</a></li>
+                                                <li><a class="dropdown-item" href="page2-3.html" target="_self">저장탱크 플랜트</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="windsold.html" class="nav-link">투자상품</a>
+                                        </li>
+                                        <li class="nav-item dropdown megamenu-li">
+                                            <a href="money.html" class="nav-link dropdown-toggle" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" target="_self">입출금</a>
+                                            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                                                <li><a class="dropdown-item" href="money.html" target="_self">입금</a></li>
+                                                <li><a class="dropdown-item" href="money_w.html" target="_self">출금</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="../bbs/board.html?bo_table=review" class="nav-link">투자자 후기</a>
+                                        </li>
+                                        <li class="nav-item dropdown megamenu-li">
+                                            <a href="../bbs/board-notice.html?bo_table=notice" class="nav-link dropdown-toggle" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" target="_self">고객지원</a>
+                                            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                                                <li><a class="dropdown-item" href="../bbs/board-notice.html?bo_table=notice" target="_self">공지사항</a></li>
+                                                <li><a class="dropdown-item" href="faq.html" target="_self">자주 묻는 질문</a></li>
+                                                <li><a class="dropdown-item" href="../bbs/qalist.html" target="_self">1:1문의</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <div class="mba_ssdiv2">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- navigation end here -->
+        <!-- mobile menu start here -->
+        <div class="mobiles_header">
+            <ul>
+                <li><a href="page1-1.html" class="submenu_a">기업소개</a></li>
+                <li><a href="page2-1.html" class="submenu_a">사업분야</a></li>
+                <li><a href="windsold.html" class="submenu_a">투자상품</a></li>
+                <li><a href="money.html" class="submenu_a">입출금</a></li>
+                <li><a href="../bbs/board.html?bo_table=review" class="submenu_a review_a">투자자 후기</a></li>
+                <li><a href="faq.html" class="submenu_a">FAQ</a></li>
+                <li><a href="../bbs/board-notice.html?bo_table=notice" target="_self">공지사항</a></li>
+                <li><a href="../bbs/qalist.html" target="_self">1:1문의</a></li>
+            </ul>
+        </div>
+        <!-- mobile menu end here -->
+        <!-------------------------- 구글 아이콘 -------------------------->
+        <div class="ety-main"></div>
+        <link href="company.css?ver=2309913" rel="stylesheet">
+        <!-- Product Section start -->
+        <div class="product">
+            <div class="product_info">
+                <h2 class="product_title">투자 상품</h2>
+                <div class="wind_content">
+                    <div class="wind_list">
+                        <div class="wind_list_item">
+                            <div class="item">
+                                <div class="item_info">
+                                    <div class="item_top">
+                                        <img src="../img/company/basic.jpg">
+                                        <h2>저장탱크 플랜트<br>(BASIC)</h2>
+                                        <div class="item_graps">
+                                            <div class="graps_top">
+                                                <p><b>월 수익률 3.9%</b></p>
+                                                <p>자유 가입형 상품</p>
+                                            </div>
+                                            <div class="graps_item">
+                                                <div class="progress-wrapper">
+                                                    <div class="progress-container" style="padding:16px 20px 0;">
+                                                        <div class="progress-bar" data-percent="100" style="height:4px;"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item_txt">
+                                        <div class="item_text">
+                                            <p>일일수익률</p>
+                                            <h4 class="hv_psent">0.13%</h4>
+                                        </div>
+                                        <div class="item_text">
+                                            <p>일일수익금</p>
+                                            <h4 class="hv_minmone" id="hv_minmone_3">1,300원</h4>
+                                        </div>
+                                        <div class="item_text">
+                                            <p>투자가능금액</p>
+                                            <h4 class="hv_mone">1,000,000 ~ 3,000,000원</h4>
+                                        </div>
+                                        <div class="item_text">
+                                            <div class="item_money_input_wrap">
+                                                <input type="hidden" id="item_min_3" value="1000000"/>
+                                                <input type="hidden" id="item_max_3" value="3000000"/>
+                                                <input type="hidden" id="item_one_3" value="0.13" class="item_one"/>
+                                                <input type="text" id="item_money_3" name="item_money_3" value="0" class="money_input" />
+                                                <button type="button" class="money_reset" data-target="3">초기화</button>
+                                            </div>
+                                        </div>
+                                        <div class="item_text">
+                                            <div class="money_quick_btns">
+                                                <button type="button" class="money_set" data-amount="1000000" data-target="3">100만</button>
+                                                <button type="button" class="money_set" data-amount="5000000" data-target="3">500만</button>
+                                                <button type="button" class="money_set" data-amount="10000000" data-target="3">1000만</button>
+                                                <button type="button" class="money_max" data-max="3000000" data-target="3">MAX</button>
+                                            </div>
+                                        </div>
+                                        <div class="item_text">
+                                            <p>투자가능금액</p>
+                                            <h4>2,196,630원</h4>
+                                        </div>
+                                    </div>
+                                    <div class="item_btn">
+                                        <button type="button" onclick="save_btn('3')">투자하기</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item_info">
+                                    <div class="item_top">
+                                        <img src="../img/company/plus.jpg">
+                                        <h2>저장탱크 플랜트<br>(PLUS)</h2>
+                                        <div class="item_graps">
+                                            <div class="graps_top">
+                                                <p><b>월 수익률 8.4%</b></p>
+                                                <p>가입기간 90일</p>
+                                            </div>
+                                            <div class="graps_item">
+                                                <div class="progress-wrapper">
+                                                    <div class="progress-container" style="padding:16px 20px 0;">
+                                                        <div class="progress-bar" data-percent="100" style="height:4px;"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item_txt">
+                                        <div class="item_text">
+                                            <p>일일수익률</p>
+                                            <h4 class="hv_psent">0.28%</h4>
+                                        </div>
+                                        <div class="item_text">
+                                            <p>일일수익금</p>
+                                            <h4 class="hv_minmone" id="hv_minmone_4">8,400원</h4>
+                                        </div>
+                                        <div class="item_text">
+                                            <p>최소투자금액</p>
+                                            <h4 class="hv_mone">3,000,000원</h4>
+                                        </div>
+                                        <div class="item_text">
+                                            <div class="item_money_input_wrap">
+                                                <input type="hidden" id="item_min_4" value="3000000"/>
+                                                <input type="hidden" id="item_max_4" value="0"/>
+                                                <input type="hidden" id="item_one_4" value="0.28" class="item_one"/>
+                                                <input type="text" id="item_money_4" name="item_money_4" value="0" class="money_input" />
+                                                <button type="button" class="money_reset" data-target="4">초기화</button>
+                                            </div>
+                                        </div>
+                                        <div class="item_text">
+                                            <div class="money_quick_btns">
+                                                <button type="button" class="money_set" data-amount="1000000" data-target="4">100만</button>
+                                                <button type="button" class="money_set" data-amount="5000000" data-target="4">500만</button>
+                                                <button type="button" class="money_set" data-amount="10000000" data-target="4">1000만</button>
+                                                <button type="button" class="money_max" data-max="2196629.8227" data-target="4">MAX</button>
+                                            </div>
+                                        </div>
+                                        <div class="item_text">
+                                            <p>투자가능금액</p>
+                                            <h4>2,196,630원</h4>
+                                        </div>
+                                    </div>
+                                    <div class="item_btn">
+                                        <button type="button" onclick="save_btn('4')">투자하기</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item_info">
+                                    <div class="item_top">
+                                        <img src="../img/company/water-treatment.jpg">
+                                        <h2>수처리 플랜트<br>(Water Treatment)</h2>
+                                        <div class="item_graps">
+                                            <div class="graps_top">
+                                                <p><b>월 수익률 9.6%</b></p>
+                                                <p>가입기간 90일</p>
+                                            </div>
+                                            <div class="graps_item">
+                                                <div class="progress-wrapper">
+                                                    <div class="progress-container" style="padding:16px 20px 0;">
+                                                        <div class="progress-bar" data-percent="100" style="height:4px;"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item_txt">
+                                        <div class="item_text">
+                                            <p>일일수익률</p>
+                                            <h4 class="hv_psent">0.32%</h4>
+                                        </div>
+                                        <div class="item_text">
+                                            <p>일일수익금</p>
+                                            <h4 class="hv_minmone" id="hv_minmone_5">16,000원</h4>
+                                        </div>
+                                        <div class="item_text">
+                                            <p>최소투자금액</p>
+                                            <h4 class="hv_mone">5,000,000원</h4>
+                                        </div>
+                                        <div class="item_text">
+                                            <div class="item_money_input_wrap">
+                                                <input type="hidden" id="item_min_5" value="5000000"/>
+                                                <input type="hidden" id="item_max_5" value="0"/>
+                                                <input type="hidden" id="item_one_5" value="0.32" class="item_one"/>
+                                                <input type="text" id="item_money_5" name="item_money_5" value="0" class="money_input" />
+                                                <button type="button" class="money_reset" data-target="5">초기화</button>
+                                            </div>
+                                        </div>
+                                        <div class="item_text">
+                                            <div class="money_quick_btns">
+                                                <button type="button" class="money_set" data-amount="1000000" data-target="5">100만</button>
+                                                <button type="button" class="money_set" data-amount="5000000" data-target="5">500만</button>
+                                                <button type="button" class="money_set" data-amount="10000000" data-target="5">1000만</button>
+                                                <button type="button" class="money_max" data-max="2196629.8227" data-target="5">MAX</button>
+                                            </div>
+                                        </div>
+                                        <div class="item_text">
+                                            <p>투자가능금액</p>
+                                            <h4>2,196,630원</h4>
+                                        </div>
+                                    </div>
+                                    <div class="item_btn">
+                                        <button type="button" onclick="save_btn('5')">투자하기</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item_info">
+                                    <div class="item_top">
+                                        <img src="../img/company/img-4.jpg">
+                                        <h2>해수담수화 플랜트<br>(아프리카)</h2>
+                                        <div class="item_graps">
+                                            <div class="graps_top">
+                                                <p><b>월 수익률 11.1%</b></p>
+                                                <p>가입기간 90일</p>
+                                            </div>
+                                            <div class="graps_item">
+                                                <div class="progress-wrapper">
+                                                    <div class="progress-container" style="padding:16px 20px 0;">
+                                                        <div class="progress-bar" data-percent="100" style="height:4px;"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item_txt">
+                                        <div class="item_text">
+                                            <p>일일수익률</p>
+                                            <h4 class="hv_psent">0.37%</h4>
+                                        </div>
+                                        <div class="item_text">
+                                            <p>일일수익금</p>
+                                            <h4 class="hv_minmone" id="hv_minmone_6">37,000원</h4>
+                                        </div>
+                                        <div class="item_text">
+                                            <p>최소투자금액</p>
+                                            <h4 class="hv_mone">10,000,000원</h4>
+                                        </div>
+                                        <div class="item_text">
+                                            <div class="item_money_input_wrap">
+                                                <input type="hidden" id="item_min_6" value="10000000"/>
+                                                <input type="hidden" id="item_max_6" value="0"/>
+                                                <input type="hidden" id="item_one_6" value="0.37" class="item_one"/>
+                                                <input type="text" id="item_money_6" name="item_money_6" value="0" class="money_input" />
+                                                <button type="button" class="money_reset" data-target="6">초기화</button>
+                                            </div>
+                                        </div>
+                                        <div class="item_text">
+                                            <div class="money_quick_btns">
+                                                <button type="button" class="money_set" data-amount="1000000" data-target="6">100만</button>
+                                                <button type="button" class="money_set" data-amount="5000000" data-target="6">500만</button>
+                                                <button type="button" class="money_set" data-amount="10000000" data-target="6">1000만</button>
+                                                <button type="button" class="money_max" data-max="2196629.8227" data-target="6">MAX</button>
+                                            </div>
+                                        </div>
+                                        <div class="item_text">
+                                            <p>투자가능금액</p>
+                                            <h4>2,196,630원</h4>
+                                        </div>
+                                    </div>
+                                    <div class="item_btn">
+                                        <button type="button" onclick="save_btn('6')">투자하기</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item_info">
+                                    <div class="item_top">
+                                        <img src="../img/company/img-5.jpg">
+                                        <h2>해수담수화 플랜트<br>(중동)</h2>
+                                        <div class="item_graps">
+                                            <div class="graps_top">
+                                                <p><b>월 수익률 13.5%</b></p>
+                                                <p>가입기간 90일</p>
+                                            </div>
+                                            <div class="graps_item">
+                                                <div class="progress-wrapper">
+                                                    <div class="progress-container" style="padding:16px 20px 0;">
+                                                        <div class="progress-bar" data-percent="100" style="height:4px;"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="item_txt">
+                                        <div class="item_text">
+                                            <p>일일수익률</p>
+                                            <h4 class="hv_psent">0.45%</h4>
+                                        </div>
+                                        <div class="item_text">
+                                            <p>일일수익금</p>
+                                            <h4 class="hv_minmone" id="hv_minmone_7">135,000원</h4>
+                                        </div>
+                                        <div class="item_text">
+                                            <p>최소투자금액</p>
+                                            <h4 class="hv_mone">30,000,000원</h4>
+                                        </div>
+                                        <div class="item_text">
+                                            <div class="item_money_input_wrap">
+                                                <input type="hidden" id="item_min_7" value="30000000"/>
+                                                <input type="hidden" id="item_max_7" value="0"/>
+                                                <input type="hidden" id="item_one_7" value="0.45" class="item_one"/>
+                                                <input type="text" id="item_money_7" name="item_money_7" value="0" class="money_input" />
+                                                <button type="button" class="money_reset" data-target="7">초기화</button>
+                                            </div>
+                                        </div>
+                                        <div class="item_text">
+                                            <div class="money_quick_btns">
+                                                <button type="button" class="money_set" data-amount="1000000" data-target="7">100만</button>
+                                                <button type="button" class="money_set" data-amount="5000000" data-target="7">500만</button>
+                                                <button type="button" class="money_set" data-amount="10000000" data-target="7">1000만</button>
+                                                <button type="button" class="money_max" data-max="2196629.8227" data-target="7">MAX</button>
+                                            </div>
+                                        </div>
+                                        <div class="item_text">
+                                            <p>투자가능금액</p>
+                                            <h4>2,196,630원</h4>
+                                        </div>
+                                    </div>
+                                    <div class="item_btn">
+                                        <button type="button" onclick="save_btn('7')">투자하기</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Product Section end -->
+        <div id="check"></div>
+        <div class="footer">
+            <div class="footer_block">
+                <div class="f_link_box">
+                    <a href="../bbs/content.html" class="f_link">서비스 이용약관</a>
+                    <a href="../bbs/privacy.html" class="f_link">개인 정보 처리 방침</a>
+                </div>
+                <div class="f_info">
+                    <div class="f_warp1">
+                        <div class="f_logo_warp">
+                            <img src="../img/blue/logo22.png" loading="lazy" alt="" class="f_logo">
+                        </div>
+                        <div class="text-block"> 
+                            　<br>아이위드<br>대표자 김계현 / 재무총괄 홍길동<br>사업자번호 : 650-41-00808<br>주소 : 서울특별시 영등포구 여의도동 국제금융로 10<br>Copyright © 2010-2025 iwith. All Rights Reserved.				
+                        </div>
+                    </div>
+                    <div class="f_warp2">
+                        <div>
+                            <strong class="bold-text-3">Contact</strong><br>
+                            고객센터 번호 : 1234-5678-0000<br>
+                            주중 운영시간 : 09:00 ~ 18:00<br>
+                            공휴일 및 주말 휴무				
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="../js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../js/jquery-1.11.0.min.js"></script>
+        <script>
+            var jQuery = $.noConflict(true);
+        </script>
+        <script src="../theme/fx/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="../theme/fx/assets/parallax/js/parallax.min.js"></script>
+        <script src="../theme/fx/assets/owlcarousel/js/owl.carousel.min.js"></script>
+        <!-- countdown -->
+        <script type="text/javascript" src="../theme/fx/assets/countdown/js/kinetic.js"></script>
+        <script type="text/javascript" src="../theme/fx/assets/countdown/js/jquery.final-countdown.js"></script>
+        <script type="text/javascript" src="../theme/fx/js/bootstrap-dropdownhover.js"></script>
+        <script type="text/javascript" src="../theme/fx/js/custom.js"></script>
+        <script>
+            $(document).ready(function () {
+              $('.progress-wrapper').each(function () {
+            	const $bar = $(this).find('.progress-bar');
+            	const $text = $(this).find('.progress-text');
+            	const percent = parseInt($bar.data('percent'));
+            
+            	$bar.css('width', percent + '%');
+            
+            	$({ countNum: 0 }).animate({ countNum: percent }, {
+            	  duration: 2000,
+            	  easing: 'swing',
+            	  step: function () {
+            		$text.text(Math.floor(this.countNum) + '%');
+            	  },
+            	  complete: function () {
+            		$text.text(percent + '%');
+            	  }
+            	});
+              });
+               function clsComma2(str){
+            		return str.toString().replace(/,/g, '');
+            	}
+              // 금액 숫자만 입력 + 자동 콤마
+            	$(document).on('input', '.money_input', function() {
+            		let val = $(this).val().replace(/[^0-9]/g, '');
+            		let num = parseInt(val || '0');
+            
+            		let percent = $(this).closest('.item_txt')  
+            					   .find('.item_one')          
+            					   .val();
+            		percent = parseFloat(percent || '0');
+            
+            		let result = Math.floor(num * percent / 100);  
+            
+            		$(this).closest('.item_txt')
+            			   .find('.hv_minmone')
+            			   .html(result.toLocaleString() + '원');
+            
+            		if (val) {
+            			$(this).val(num.toLocaleString());
+            		} else {
+            			$(this).val('0');
+            		}
+            	});
+            
+            	// 초기화 버튼
+            	$('.money_reset').click(function() {
+            		let nom = $(this).data('target');
+            		let target = '#item_money_' + nom;
+            		var min_money = $('#item_min_'+nom).val();
+            		var psetn = $('#item_one_'+nom).val();
+            
+            		var total = (parseInt(min_money) / 100) * (psetn * 1);
+            		$(target).val('0');
+            		$('#hv_minmone_'+nom).html(total.toLocaleString()+ "원");
+            	});
+            
+            	// 금액 세팅 버튼
+            	$('.money_set').click(function() {
+            		let amount = $(this).data('amount');
+            		let nom = $(this).data('target');
+            		let target = '#item_money_' + nom;
+            		let money = clsComma2($(target).val());
+            		var psetn = $('#item_one_'+nom).val();
+            		
+            		if(money > 0){
+            			money = (money * 1) + (amount * 1);
+            		}else{
+            			money = (amount * 1);
+            		}
+            		var total = (money / 100) * (psetn * 1);
+            
+            		$(target).val(money.toLocaleString());
+            		$('#hv_minmone_'+nom).html(total.toLocaleString()+ "원");
+            	});
+            
+            	// 맥스 버튼
+            	$('.money_max').click(function() {
+            		let max = $(this).data('max');
+            		let nom = $(this).data('target');
+            		let target = '#item_money_' + nom;
+            		let trimmed = Math.floor(max / 10000) * 10000;
+            		var psetn = $('#item_one_'+nom).val();
+            		var total = 0;
+            		if(parseInt(trimmed) > 0){
+            			total = (parseInt(trimmed) / 100) * (psetn * 1);
+            		}
+            		$(target).val(parseInt(trimmed).toLocaleString() );
+            		$('#hv_minmone_'+nom).html(total.toLocaleString()+ "원");
+            	});
+            });
+        </script>
+        <script>
+            function addComma(str){
+            	var regexp = /\B(?=(\d{3})+(?!\d))/g;
+            	return str.toString().replace(regexp, ',');
+            }
+            function clsComma(str){
+            	return str.toString().replace(/,/g, '');
+            }
+            function save_btn(deal){
+            	var min_money = $('#item_min_'+deal).val();
+            	var max_money = $('#item_max_'+deal).val();
+            	var bo_money = "2196629.8227";
+            	var item_money = clsComma($('#item_money_'+deal).val());
+            	var item_count = 1;
+            	min_money = min_money * 1;
+            	item_money = item_money * 1;
+            	max_money = max_money * 1;
+            	if(min_money > item_money){
+            		alert('투자금액이 최소 권장 금액보다 부족합니다.\n투자금액을 다시 확인해 주세요.');
+            		return;
+            	}
+            	if(max_money > 0){
+            		if(max_money < item_money){
+            			alert('본 상품의 최대 투자 가능금액은 3,000,000원 입니다.');
+            			return;
+            		}
+            	}
+            	bo_money = bo_money * 1;
+            	item_count = item_count * 1;
+            
+            	var money = item_money;
+            	
+            	if(money > bo_money){
+            		alert("투자금액이 예치금액을 초과 합니다.\n투자금액을 다시 확인해 주세요.");
+            		return;
+            	}
+            	
+            	if(!confirm("선택한 투자상품을 구매 하시겠습니까?")) { return; }
+            	var formData = {"money":money, "deal":deal, "cnt":item_count};
+            		$.ajax({
+            		url: "#",
+            		type: "POST",
+            		data: formData,
+            		success: function(response) {  //alert(" __|"+response+"|__ ");
+            			if(response == "OK")
+            			{ 
+            				alert("파트너님의 상품 계약이 정상적으로 체결되었습니다");
+            				location.href = '#'; 
+            			}else if(response == "NOM"){
+            				alert("회원만 이용이 가능합니다.");
+            			}else if(response == "OVEN"){
+            				alert("투자금액이 예치금액을 초과 합니다.\n투자금액을 다시 확인해 주세요.");
+            			}else{ 
+            				alert("투자 실패 새로고침 후 다시 시도해주세요");
+            			}
+            
+            			// 등록처리 0 : OK
+            
+            		},
+            		eror:function(request, status, error){
+            			//alert("code = "+ request.status + " message = " + request.responseText + " error = " + error);
+            			alert("Error Code = "+ request.status );
+            		}
+            	});
+            }
+            
+            $(function(){
+            	$('.item_count :button').on({
+            		'click' : function(e){
+            			e.preventDefault();
+            			var $count = $(this).parent('.item_count').find('.num_input');
+            			var money = $(this).parent('.item_count').find('.num_add').val();
+            			
+            			var sum_money = 0;
+            			var now = parseInt($count.val());
+            			var min = 1;
+            			var max = 999;
+            			var num = now;
+            			
+            			var min_b = $(this).parent('.item_count').find('.min_val').val();
+            			var hv_minmone = 0;
+            
+            			if($(this).hasClass('item_minus')){
+            				var type = 'm';
+            			}else{
+            				var type = 'p';
+            			}
+            			if(type=='m'){
+            				if(now>min){
+            					num = now - 1;
+            				}
+            			}else{
+            				if(now<max){
+            					num = now + 1;
+            				}
+            			}
+            			if(num != now){
+            				sum_money = (money * 1) * num;
+            				hv_minmone = (sum_money / 100) * min_b;
+            				$(this).parent().parent().parent().find('.hv_mone').html(addComma(sum_money)+"원");
+            				$(this).parent().parent().parent().find('.hv_minmone').html(addComma(Math.round(hv_minmone))+"원");
+            				$count.val(num);
+            			}
+            		}
+            	});
+            });
+        </script>
+    </body>
 </html>
