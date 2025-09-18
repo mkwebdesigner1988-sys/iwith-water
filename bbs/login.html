@@ -26,28 +26,8 @@
 <link rel="icon" href="../img/blue/favicon.ico" type="image/x-icon">
 
 <link rel="canonical" href="login.html">
-<meta property="og:url" content="https://iwith-water.com/bbs/login.php">
-
-<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=0,maximum-scale=10,user-scalable=yes">
-<meta http-equiv="imagetoolbar" content="no">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 <link rel="stylesheet" href="../theme/fx/css/default.css?ver=2309913">
-<!--[if lte IE 8]>
-<script src="https://iwith-water.com/js/html5.js"></script>
-<![endif]-->
-<script>
-// 자바스크립트에서 사용하는 전역변수 선언
-var g5_url       = "https://iwith-water.com";
-var g5_bbs_url   = "https://iwith-water.com/bbs";
-var g5_is_member = "";
-var g5_is_admin  = "";
-var g5_is_mobile = "";
-var g5_bo_table  = "";
-var g5_sca       = "";
-var g5_editor    = "";
-var g5_cookie_domain = "";
-</script>
 
 <!-- google fonts -->
 <link href="../css?family=Nanum+Gothic:400,700,800|Noto+Sans+KR:100,300,400,500,700,900|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
@@ -96,7 +76,8 @@ var g5_cookie_domain = "";
     visibility: visible;
 }
 </style>
-<nav class="navbar fixed-top navbar-expand-lg ">
+<!-- navigation start here -->
+<nav class="navbar fixed-top navbar-expand-lg in_mohd">
 	<div class="navbar_cont">
 		<div class="navcont_info">
 			<div class="nab_box">
@@ -131,16 +112,16 @@ var g5_cookie_domain = "";
 								<a href="../company/money.html" class="submenu_a" style="font-weight: bold;">입출금</a>
 							</li>
 							<li class="submenu_li">
-								<a href="board.html" class="submenu_a" style="font-weight: bold;">투자자 후기</a>
+								<a href="board.html?bo_table=review" class="submenu_a" style="font-weight: bold;">투자자 후기</a>
 							</li>
 							<!-- <li class="submenu_li">
-								<a href="/company/faq.html" class="submenu_a">FAQ</a>
+								<a href="../company/faq.html" class="submenu_a">FAQ</a>
 							</li> -->
 							<li class="submenu_li">
-								<a href="board-1.html" class="submenu_a">고객지원</a>
+								<a href="board-1.html?bo_table=notice" class="submenu_a">고객지원</a>
 								<ul>
 								    <li><a href="../company/faq.html" class="submenu_a" target="_self">FAQ</a></li>
-									<li><a href="board-1.html" target="_self">공지사항</a></li>
+									<li><a href="board-1.html?bo_table=notice" target="_self">공지사항</a></li>
 									<li><a href="qalist.html" target="_self">1:1문의</a></li>
 								</ul>
 							</li>
@@ -166,7 +147,7 @@ var g5_cookie_domain = "";
 					<div class="nav_info">
 						<div class="collapse navbar-collapse" id="navbarResponsive" data-hover="dropdown" data-animations="fadeIn fadeIn fadeInUp fadeInRight">
 							<div class="mb_logo">
-								<a class="mb_logo_logo" href="../index.html"><img src="../img/blue/logo22.png"></a>
+								<a class="mb_logo_logo" href="index.htm"><img src="img/blue/logo22.png"></a>
 							</div>
 														<div class="mba_ssloga">
 								<a href="login.html" class="mba_ssloga_logi">로그인</a>
@@ -201,14 +182,14 @@ var g5_cookie_domain = "";
 									</ul>
 								</li>
 								<li class="nav-item">
-									<a href="board.html" class="nav-link">투자자 후기</a>
+									<a href="board.html?bo_table=review" class="nav-link">투자자 후기</a>
 								</li>
 								<li class="nav-item dropdown megamenu-li">
-									<a href="board-1.html" class="nav-link dropdown-toggle" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" target="_self">고객지원</a>
+									<a href="board-1.html?bo_table=notice" class="nav-link dropdown-toggle" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" target="_self">고객지원</a>
 									<ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-										<li><a class="dropdown-item" href="board-1.html" target="_self">공지사항</a></li>
+										<li><a class="dropdown-item" href="board-1.html?bo_table=notice" target="_self">공지사항</a></li>
 										<li><a class="dropdown-item" href="../company/faq.html" target="_self">자주 묻는 질문</a></li>
-										<li><a class="dropdown-item" href="qalist.html" target="_self">1:1문의</a></li>
+										<li><a class="dropdown-item" href="./qalist.html" target="_self">1:1문의</a></li>
 									</ul>
 								</li>
 								
@@ -223,18 +204,22 @@ var g5_cookie_domain = "";
 	</div>
 	
 </nav>
+<!-- navigation end here -->
+
+<!-- mobile menu start here -->
 <div class="mobiles_header">
 	<ul>
 		<li><a href="../company/page1-1.html" class="submenu_a">기업소개</a></li>
 		<li><a href="../company/page2-1.html" class="submenu_a">사업분야</a></li>
 		<li><a href="../company/windsold.html" class="submenu_a">투자상품</a></li>
 		<li><a href="../company/money.html" class="submenu_a">입출금</a></li>
-		<li><a href="board.html" class="submenu_a review_a">투자자 후기</a></li>
+		<li><a href="board.html?bo_table=review" class="submenu_a review_a">투자자 후기</a></li>
 		<li><a href="../company/faq.html" class="submenu_a">FAQ</a></li>
-		<li><a href="board-1.html" target="_self">공지사항</a></li>
+		<li><a href="board-1.html?bo_table=notice" target="_self">공지사항</a></li>
 		<li><a href="qalist.html" target="_self">1:1문의</a></li>
 	</ul>
 </div>
+<!-- mobile menu end here -->
 <script>
 	$(function(){
 		$('.submenu_li').mouseenter(function(event){
@@ -283,8 +268,8 @@ footer{margin-top:0;}
 				<strong class="sub_title">회원가입을 완료하지 않으셨다면 하단 “회원가입”을 진행하여 주십시오.</strong>
 				<div class="login_wrap">
 					
-					<form name="flogin" action="#" method="post" autocomplete="off">
-						<input type="hidden" name="url" value="">
+					<form name="flogin" action="../index.html?login=success" method="get" autocomplete="off">
+						<input type="hidden" name="login" value="success">
 						<fieldset id="login_fs">
 							<legend>회원로그인</legend>
 							<div class="login_box">
@@ -406,7 +391,7 @@ function flogin_submit(f)
 	
 		<script>
 		function positit_view(){
-			var url = "/company/memo.html";
+			var url = "../company/memo.html";
 			location.href = url;
 		}	
 	</script>

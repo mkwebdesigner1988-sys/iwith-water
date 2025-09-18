@@ -1,20 +1,18 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="ko">
 <head>
 
 <meta charset="utf-8">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="index, follow" >
 <title>아이위드</title>
-<meta name="title" content="아이위드">
-<meta name="robots" content="index,follow">
-<meta name="keywords" content="아이위드, 아이위드 담수화, 아이위드 기술력, 담수화">
-<meta name="description" content="아이위드는 고도화된 담수화 기술로 갈증에 시달리는 세계에 응답하며, 지속 가능한 수자원 해법을 제공합니다.">
+<meta name="title" content="아이위드" />
+<meta name="robots" content="index,follow" />
+<meta name="keywords" content="아이위드, 아이위드 담수화, 아이위드 기술력, 담수화" />
+<meta name="description" content="아이위드는 고도화된 담수화 기술로 갈증에 시달리는 세계에 응답하며, 지속 가능한 수자원 해법을 제공합니다." />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<link rel="shortcut icon" href="img/blue/favicon.ico" type="image/x-icon">
-<link rel="icon" href="img/blue/favicon.ico" type="image/x-icon">
-
-<link rel="canonical" href="index.html">
+<link rel="shortcut icon" href="/img/blue/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/img/blue/favicon.ico" type="image/x-icon">
 
 <link rel="stylesheet" href="theme/fx/css/default.css?ver=2309913">
 
@@ -42,38 +40,31 @@
 <link href="theme/fx/css/slick.css?ver=2309913" rel="stylesheet">
 <link href="theme/fx/css/xeicon.min.css?ver=2309913" rel="stylesheet">
 
+ <script src="js/jquery-1.12.4.min.js?ver=2309675"></script>
 
-<script src="js/jquery-1.12.4.min.js?ver=2309675"></script>
-<script src="js/jquery-migrate-1.4.1.min.js?ver=2309675"></script>
-<script src="js/jquery.menu.js?ver=2309675"></script>
-<script src="js/common.js?ver=2309675"></script>
-<script src="js/wrest.js?ver=2309675"></script>
-<script src="js/placeholders.min.js?ver=2309675"></script>
+<!-- <script src="js/jquery-migrate-1.4.1.min.js?ver=2309675"></script> -->
+
 </head>
 <body>
-
+<!-- <span itemscope="" itemtype="http://schema.org/Organization">
+<link itemprop="url" href="https://iwith-water.com">
+	<a itemprop="sameAs" href="https://www.youtube.com/@%EC%95%84%EC%9D%B4%EC%9C%84%EB%93%9C"></a>
+</span> -->
+<div id="hd_login_msg">테스트할게요님 로그인 중 <a href="https://iwith-water.com/bbs/logout.php">로그아웃</a></div>
 <!-- 팝업레이어 시작 { -->
-<div id="hd_pop">
+<div id="hd_pop" style="display:none;">
     <h2>팝업레이어 알림</h2>
-
+    <div id="hd_pops_10" class="hd_pops" style="top:10px;left:10px;">
+        <div class="hd_pops_con" style="width:450px;height:500px">
+            <p><img src="img/login-pop-img.png" title="#" alt="#" /><br style="clear:both;" /></p>        </div>
+        <div class="hd_pops_footer">
+            <button class="hd_pops_reject hd_pops_10 24"><strong>24</strong>시간 동안 다시 열람하지 않습니다.</button>
+            <button class="hd_pops_close hd_pops_10">닫기</button>
+        </div>
+    </div>
 </div>
 
-<script>
-$(function() {
-    $(".hd_pops_reject").click(function() {
-        var id = $(this).attr('class').split(' ');
-        var ck_name = id[1];
-        var exp_time = parseInt(id[2]);
-        $("#"+id[1]).css("display", "none");
-        set_cookie(ck_name, 1, exp_time, g5_cookie_domain);
-    });
-    $('.hd_pops_close').click(function() {
-        var idb = $(this).attr('class').split(' ');
-        $('#'+idb[1]).css('display','none');
-    });
-    $("#hd").css("z-index", 1000);
-});
-</script>
+<!-- } 팝업레이어 끝 -->
 
 <!-------------------------- 네비게이션 -------------------------->
 <style>
@@ -83,7 +74,6 @@ $(function() {
     visibility: visible;
 }
 </style>
-
 <!-- navigation start here -->
 <nav class="navbar fixed-top navbar-expand-lg in_mohd">
 	<div class="navbar_cont">
@@ -120,16 +110,16 @@ $(function() {
 								<a href="company/money.html" class="submenu_a" style="font-weight: bold;">입출금</a>
 							</li>
 							<li class="submenu_li">
-								<a href="bbs/board.html" class="submenu_a" style="font-weight: bold;">투자자 후기</a>
+								<a href="bbs/board.html?bo_table=review" class="submenu_a" style="font-weight: bold;">투자자 후기</a>
 							</li>
 							<!-- <li class="submenu_li">
 								<a href="/company/faq.html" class="submenu_a">FAQ</a>
 							</li> -->
 							<li class="submenu_li">
-								<a href="bbs/board-1.html" class="submenu_a">고객지원</a>
+								<a href="bbs/board-1.html?bo_table=notice" class="submenu_a">고객지원</a>
 								<ul>
 								    <li><a href="company/faq.html" class="submenu_a" target="_self">FAQ</a></li>
-									<li><a href="bbs/board-1.html" target="_self">공지사항</a></li>
+									<li><a href="bbs/board-1.html?bo_table=notice" target="_self">공지사항</a></li>
 									<li><a href="bbs/qalist.html" target="_self">1:1문의</a></li>
 								</ul>
 							</li>
@@ -190,12 +180,12 @@ $(function() {
 									</ul>
 								</li>
 								<li class="nav-item">
-									<a href="bbs/board.html" class="nav-link">투자자 후기</a>
+									<a href="bbs/board.html?bo_table=review" class="nav-link">투자자 후기</a>
 								</li>
 								<li class="nav-item dropdown megamenu-li">
-									<a href="bbs/board-1.html" class="nav-link dropdown-toggle" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" target="_self">고객지원</a>
+									<a href="bbs/board-1.html?bo_table=notice" class="nav-link dropdown-toggle" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" target="_self">고객지원</a>
 									<ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-										<li><a class="dropdown-item" href="bbs/board-1.html" target="_self">공지사항</a></li>
+										<li><a class="dropdown-item" href="bbs/board-1.html?bo_table=notice" target="_self">공지사항</a></li>
 										<li><a class="dropdown-item" href="company/faq.html" target="_self">자주 묻는 질문</a></li>
 										<li><a class="dropdown-item" href="bbs/qalist.html" target="_self">1:1문의</a></li>
 									</ul>
@@ -221,9 +211,9 @@ $(function() {
 		<li><a href="company/page2-1.html" class="submenu_a">사업분야</a></li>
 		<li><a href="company/windsold.html" class="submenu_a">투자상품</a></li>
 		<li><a href="company/money.html" class="submenu_a">입출금</a></li>
-		<li><a href="bbs/board.html" class="submenu_a review_a">투자자 후기</a></li>
+		<li><a href="bbs/board.html?bo_table=review" class="submenu_a review_a">투자자 후기</a></li>
 		<li><a href="company/faq.html" class="submenu_a">FAQ</a></li>
-		<li><a href="bbs/board-1.html" target="_self">공지사항</a></li>
+		<li><a href="bbs/board-1.html?bo_table=notice" target="_self">공지사항</a></li>
 		<li><a href="bbs/qalist.html" target="_self">1:1문의</a></li>
 	</ul>
 </div>
@@ -246,7 +236,7 @@ $(function() {
 
 <div class="index_main">
 	<section class="main-visual">
-		<ul id="main-visual" class="nx-slide main-visual__slide" data-autoplay="1" data-autoplayspeed="5000" data-infinite="1" data-speed="500">
+		<ul id="main-visual" class="nx-slide main-visual__slide" data-autoplay="1" data-autoplaySpeed="5000" data-infinite="1" data-speed="500">
 			<li class="nx-slide-image-list">
 				<div class="main-visual__wrap">
 					<div class="inner">
@@ -270,7 +260,13 @@ $(function() {
 	</section>
 
 	<div class="youtube-video" style="text-align: center; margin-top: 30px; margin-bottom: 30px;">
-		<iframe src="https://www.youtube.com/embed/smNC_DgOU3M?rel=0&autoplay=0" width="100%" height="600" frameborder="0" allowfullscreen="" style="height: 600px;">
+		<iframe 
+			src="https://www.youtube.com/embed/smNC_DgOU3M?rel=0&autoplay=0" 
+			width="100%" 
+			height="600" 
+			frameborder="0" 
+			allowfullscreen
+			style="height: 600px;">
 		</iframe>
 	</div>
 	<style>
@@ -280,7 +276,6 @@ $(function() {
 		}
 	}
 	</style>
-
 	<section class="main-business no-padding">
 				<div class="sub-flex__right">
 					<div class="square-box__img-wrap">
@@ -288,7 +283,9 @@ $(function() {
 						<img src="img/blue/media/iw_m22.png" alt="" class="mobile_img">
 					</div>
 				</div>
-			</section></div>
+			</div>
+		</div>
+	</section>
 
 	<section class="main-business no-padding">
 		<div class="sub-flex__right">
@@ -307,18 +304,18 @@ $(function() {
 			</div>
 		</div>
 	</section>
-
+</div>
 	<div id="check"></div>
 	<div class="footer">
 	<div class="footer_block">
 		<div class="f_link_box">
-			<a href="bbs/login.html?co_id=provision" class="f_link">서비스 이용약관</a>
-			<a href="bbs/login.html?co_id=privacy" class="f_link">개인 정보 처리 방침</a>
+			<a href="/bbs/content.html?co_id=provision" class="f_link">서비스 이용약관</a>
+			<a href="/bbs/content.html?co_id=privacy" class="f_link">개인 정보 처리 방침</a>
 		</div>
 		<div class="f_info">
 			<div class="f_warp1">
 				<div class="f_logo_warp">
-					<img src="img/blue/logo22.png" loading="lazy" alt="" class="f_logo">
+					<img src="/img/blue/logo22.png" loading="lazy" alt="" class="f_logo">
 				</div>
 				<div class="text-block"> 
 				　<br>아이위드<br>대표자 김계현 / 재무총괄 홍길동<br>사업자번호 : 650-41-00808<br>주소 : 서울특별시 영등포구 여의도동 국제금융로 10<br>Copyright © 2010-2025 iwith. All Rights Reserved.				</div>
@@ -333,9 +330,14 @@ $(function() {
 		</div>
 	</div>
 </div>	
+	
 	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+	
 	<script src="js/bootstrap.min.js"></script>
-
+	<script src="js/jquery.menu.js?ver=2309675"></script>
+<script src="js/common.js?ver=2309675"></script>
+<script src="js/wrest.js?ver=2309675"></script>
+<script src="js/placeholders.min.js?ver=2309675"></script>
 	<script>
 	var jQuery = $.noConflict(true);
 	</script>
@@ -347,16 +349,14 @@ $(function() {
 	<script type="text/javascript" src="theme/fx/assets/countdown/js/jquery.final-countdown.js"></script>
 	<script type="text/javascript" src="theme/fx/js/bootstrap-dropdownhover.js"></script>
 	<script type="text/javascript" src="theme/fx/js/custom.js"></script>
-	<div class="modal" id="memo_modal">
-		<div class="modal-dialog">
-			<div class="modal-content">
-
-			</div>
-		</div>
-	</div>
 	
-	<!-- <script src='js/6119763.js' chat='true'></script> -->
+		<script>
+		function positit_view(){
+			var url = "/company/memo.html";
+			location.href = url;
+		}	
+	</script>
+</div>
 
-<!-- } 하단 끝 -->
 </body>
 </html>

@@ -1,10 +1,4 @@
-/*
 
-http://ety.kr
-
-*/
-
-/*
 
 $(function() {
 
@@ -36,7 +30,7 @@ $(function() {
 	});
 
 });
-*/
+
 
 
 $(function(){
@@ -79,6 +73,7 @@ $(function(){
 			header.addClass("in_mohd");
 		  }    
 	  });
+      
 	});	
 
 	$(document).ready(function () {
@@ -271,5 +266,21 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         
         startAutoSlide();
+    });
+});
+
+jQuery(function(){
+    jQuery("#hd_pop").hide();
+    // URL param check
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get("login") === "success") {
+        console.log("✅ Login success detected");
+        $("#hd_pop").show(); // show popup
+    }
+
+    // Close button
+    jQuery(".hd_pops_close").on("click", function () {
+        const popupId = $(this).attr("class").split(" ")[1];
+        jQuery("#" + popupId).hide();
     });
 });
